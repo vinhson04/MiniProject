@@ -1,0 +1,15 @@
+<div class="text">
+    <h1>Product List</h1>
+</div>
+{{#each product}}
+<div class="product">
+    <h2>{{name}}</h2>
+    <h3>Price: {{price}}</h3>
+    <div class="product1">
+        <img src="{{image}}" alt="{{name}} Image">
+    </div>
+    <div class="btn_main">
+        <div class="buy_bt"><a href="#">Buy Now</a></div>
+    </div>
+</div>
+{{/each}}
